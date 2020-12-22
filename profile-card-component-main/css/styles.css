@@ -1,0 +1,15 @@
+body {
+  background-color: #19A2AE;
+  margin: 0;
+  text-align: center;
+}
+
+.top-circle{
+  height: auto;
+  width: 1440px;
+}
+
+.bottom-circle{
+  height: auto;
+  width: 1440px;
+}
