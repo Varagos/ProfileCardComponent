@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,13 +16,42 @@
 
 <body>
   <img class="top-circle" src="images/bg-pattern-top.svg" alt="Cyanide circle">
-  <div>
-    Hello
+  <div class="inside-box">
+    <div class="box-image-background"> </div>
+    <div class="rest-box">
+      <img class="victor-image" src="images/image-victor.jpg" alt="random guy image">
+      <div class="Info">
+        <p>Victor Crest <span class="secondary"> 26</span></p>
+        <p class="secondary">London</p>
+
+      </div>
+      <hr id="hr1">
+      <table>
+        <tr>
+          <th>80K</td>
+          <th>803K</th>
+          <th>1.4K</th>
+        </tr>
+        <tr>
+          <td>
+            <p class="secondary cell">Followers</p>
+          </td>
+          <td>
+            <p class="secondary cell">Likes</p>
+          </td>
+          <td>
+            <p class="secondary cell">Photos</p>
+          </td>
+        </tr>
+      </table>
+    </div>
   </div>
-  <img class="bottom-circle"src="images/bg-pattern-bottom.svg" alt="Cyanide circle">
+  <div class ="circle_wrapper">
+  <img class="bottom-circle" src="images/bg-pattern-bottom.svg" alt="cyanide circle">
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.linkedin.com/in/markos-girgis-44541b1b9/">Markos Girgis</a>.
   </div>
 </body>
 

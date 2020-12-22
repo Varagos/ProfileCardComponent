@@ -2,14 +2,114 @@ body {
   background-color: #19A2AE;
   margin: 0;
   text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  position:relative;
+  min-width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+p {
+  margin:0 auto;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  color: #D3D3D3;
+  background-color: #D3D3D3; /* Modern Browsers */
+}
+table {
+  width:100%;
+
+  vertical-align: middle;
+
+}
+tr {
+  text-align: center;
+  vertical-align: middle;
+
+}
+td {
+  text-align: center;
+  vertical-align: middle;
+  width: 33%;
 }
 
 .top-circle{
   height: auto;
+  position: relative;
+  right: 720px;
+  bottom: 820px;
   width: 1440px;
 }
 
+.inside-box{
+  border-radius: 20px;
+  background-color: white;
+  margin : 0 auto;
+  position:absolute;
+  z-index: 2000;
+  width: 350px;
+  height: 400px;
+  top: 200px;
+  left: 40%;
+  text-align: center;
+}
+
+.rest-box {
+  height: 140px;
+}
+
+.box-image-background {
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+  height: 140px;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-color: #6A6F81;
+}
+
 .bottom-circle{
-  height: auto;
+  height: 1440px;
   width: 1440px;
+}
+.circle_wrapper {
+  height: 700px;
+  width: 1100px;
+  overflow: hidden;
+  position:absolute;
+  bottom:0;
+  right:0;
+  top: 300px;
+}
+.victor-image{
+  border-radius: 50%;
+  position: relative;
+  bottom: 50px;
+  border: 5px white solid;
+}
+
+.Info {
+  position: relative;
+  bottom: 30px;
+}
+.secondary{
+  color: #D3D3D3;
+  font-weight: 400;
+}
+
+.cell {
+  font-size: 10px;
+}
+
+.attribution {
+  position: absolute;
+
+  bottom:0;
+}
+#hr1 {
+  position:relative;
+  bottom: 15px;
 }
